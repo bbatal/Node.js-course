@@ -1,27 +1,14 @@
-// asynchronously(non-blocking)
-const { readFile, writeFile, } = require('fs')
+// npm - global command - comes with node
+// npm -version
 
-// callback hell
-readFile(
-    './content/first.txt',
-    'utf8',
-     (err, result) => {
-        if(err) {console.log('err : ' + err); return;}
-        const first =  result;
-        readFile(
-            './content/second.txt', 
-            'utf-8', 
-            (err, result) => {
-                if(err) {console.log('err : ' + err); return;}
-                const second = result;
-                writeFile('./content/result-async.txt', 
-                `Here is the result : ${first}, ${second}`,
-                { flag: 'a' },
-                (err, result) => {
-                    if(err) {console.log('err : ' + err); return;}
-                    console.log(result);
-                }
-                )
-            })
-     },
-    )
+// local dependency - use it only in this particular project
+// npm i <packageName>
+
+// global dependency - use it any project
+// npm install -g <packageName>
+// sudo install -g <packageName> (mac)
+
+// package.json - manifest file (stores important info about project/packages)
+// manual approach - create package.json in the root, create properties etc.
+// npm init - (step by step, press enter to skip)
+// npm init -y (everything default)

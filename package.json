@@ -1,0 +1,23 @@
+{
+  "name": "NODE-JS",
+  "version": "1.0.0",
+  "description": "## Description covering all major topics of Node.js and express culminating in creating a REST Api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbatal/Node.js-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbatal/Node.js-course/issues"
+  },
+  "homepage": "https://github.com/bbatal/Node.js-course#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

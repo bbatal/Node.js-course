@@ -17,6 +17,9 @@ covering all major topics of Node.js and express culminating in creating a REST 
 
 - fs module -- called the file system module, lets us access, read/write/create to/from files on the system in a synchronous (blocking) or asynchronous (non-blocking) way
 
+- http module -- lets us setup our own server where we can access things such as the url string and to essentially build out a webpage if we wanted 
+
+- npm - node package manager that defines packages as folders with reusable bits of code, there is no quality control in the npm registry (must sniff out useless packages urself, check for weekly downloads)
 
 
 
