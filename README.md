@@ -21,6 +21,8 @@ covering all major topics of Node.js and express culminating in creating a REST 
 
 - npm - node package manager that defines packages as folders with reusable bits of code, there is no quality control in the npm registry (must sniff out useless packages urself, check for weekly downloads)
 
+-event loop - we offload async operations to a kernel (which is multi-threaded) in order to save space and prevent the single-threaded js language to stop and not allow more requests to come in
+
 
 
 
