@@ -23,6 +23,11 @@ covering all major topics of Node.js and express culminating in creating a REST 
 
 -event loop - we offload async operations to a kernel (which is multi-threaded) in order to save space and prevent the single-threaded js language to stop and not allow more requests to come in
 
+-promises - creating promises can be done ourselves in order to prevent blocking code from stopping the server for other users, by specifying a promises method on our require statement, this will turn our modules into promises which we can then simply use in an async await pattern
+
+- event emitters - event emitters are methods that most node modules rely on and these are actions taken on what the server is giving or receiving,
+
+- streams - an interface(API) that allow us to read write streaming data
 
 
 
