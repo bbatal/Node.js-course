@@ -27,7 +27,7 @@ covering all major topics of Node.js and express culminating in creating a REST 
 
 - event emitters - event emitters are methods that most node modules rely on and these are actions taken on what the server is giving or receiving,
 
-- streams - an interface(API) that allow us to read write streaming data
+- streams - an interface(API) that allow us to read/write streaming data, methods such as createRReadStream open up an event stream for us and listener methods such as on take a string to listen for and a callback which if hit will then execute
 
 
 
