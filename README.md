@@ -29,7 +29,7 @@ covering all major topics of Node.js and express culminating in creating a REST 
 
 - streams - an interface(API) that allow us to read/write streaming data, methods such as createRReadStream open up an event stream for us and listener methods such as on take a string to listen for and a callback which if hit will then execute
 
-
+- http-server - using createServer method on the http module, we can listen for requests to our server and send back resources, status codes, and error messages. This is done by utilizing methods from the response object such as writeHead(for specifying status code and content/ mime types) and write method(to send some kind of resource that is being requested). If statements in our server will check the req.url to find out which resource to load and if none are found to send back a writeHead with a 404 status code. This method is labour intensive but can be done using http modules strictly
 
 
 
